@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>TAHKEM</title>
+    <link rel="shortcut icon" type="img/png" href="../images/logo.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome.min.css" />
+  </head>
+
+  <body>
+    <div class="auth-page">
+      <div class="auth-content">
+        <div class="auth-card">
+          <div class="logo-cont">
+            <a href="../index.html" class="logo">
+              <img src="../images/logo.png" />
+            </a>
+          </div>
+          <div class="auth-head">
+            <h1 class="auth-title">كود التحقق</h1>
+            <p class="auth-hint">
+              تم ارسال كود التحقق على جوال رقم
+              <span>+9660000000000</span>
+            </p>
+          </div>
+          <form>
+            <div class="inputs-numbers">
+              <div class="inputs-cont">
+                <input type="number" placeholder="-" class="code-input" />
+                <input
+                  type="number"
+                  placeholder="-"
+                  class="code-input"
+                  disabled
+                />
+                <input
+                  type="number"
+                  placeholder="-"
+                  class="code-input"
+                  disabled
+                />
+                <input
+                  type="number"
+                  placeholder="-"
+                  class="code-input"
+                  disabled
+                />
+              </div>
+              <!-- <span class="form_error"> كود التحقق غير صحيح </span> -->
+            </div>
+            <div class="form-line">
+              <div class="countdown">
+                <span class="timer"></span>
+                <button type="button" class="auth-link">
+                  إعادة إرسال كود التحقق
+                </button>
+              </div>
+
+              <a href="forget.html" class="auth-link">
+                اعادة ادخال رقم الجوال
+              </a>
+            </div>
+            <!-- <button class="form-submit disabled" id="code-submit-btn" >التالى</button> -->
+            <a
+              href="reset.html"
+              class="form-submit disabled"
+              id="code-submit-btn"
+            >
+              التالى
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/auth.js"></script>
+  </body>
+</html>

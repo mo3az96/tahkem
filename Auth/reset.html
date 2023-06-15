@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>TAHKEM</title>
+    <link rel="shortcut icon" type="img/png" href="../images/logo.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome.min.css" />
+  </head>
+
+  <body>
+    <div class="auth-page">
+      <div class="auth-content">
+        <div class="auth-card">
+          <div class="logo-cont">
+            <a href="../index.html" class="logo">
+              <img src="../images/logo.png" />
+            </a>
+          </div>
+          <div class="auth-head">
+            <h1 class="auth-title">إعادة تعيين كلمة المرور</h1>
+          </div>
+          <form>
+            <div class="form-group">
+              <button type="button" class="showPass" onclick="togglePass(this)">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="كلمة المرور"
+              />
+              <span class="label-title"><i class="fa-solid fa-lock"></i></span>
+              <!-- <span class="form_error"> كلمة المرور غير صحيحه </span> -->
+            </div>
+            <div class="form-group">
+              <button type="button" class="showPass" onclick="togglePass(this)">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="تأكيد كلمة المرور"
+              />
+              <span class="label-title"><i class="fa-solid fa-lock"></i></span>
+            </div>
+            <!-- <button class="form-submit">حفظ</button> -->
+            <a href="login.html" class="form-submit">حفظ</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/auth.js"></script>
+  </body>
+</html>
