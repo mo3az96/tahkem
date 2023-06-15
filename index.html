@@ -1,12 +1,174 @@
-…or create a new repository on the command line
-echo "# tahkemfront" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/devtrika/tahkemfront.git
-git push -u origin master
-…or push an existing repository from the command line
-git remote add origin https://github.com/devtrika/tahkemfront.git
-git branch -M master
-git push -u origin master
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>TAHKEM</title>
+    <link rel="shortcut icon" type="img/png" href="images/logo.png" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="header">
+          <a role="button" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" />
+          </a>
+          <div class="header-tools">
+            <div class="header-list">
+              <a role="button" class="list-btn">
+                <i class="fa-solid fa-bell"></i>
+              </a>
+            </div>
+            <div class="header-list">
+              <a role="button" class="list-btn">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="navigation-overlay"></div>
+    <aside class="navigation-bar">
+      <div class="navigation-content">
+        <ul class="navigation-list list-unstyled">
+          <li>
+            <a href="index.html" class="navigation-link active">
+              <i class="fa-solid fa-house"></i>
+              لوحة التحكم
+            </a>
+          </li>
+          <li>
+            <a type="button" class="navigation-link">
+              <i class="fa-solid fa-sliders"></i>
+              الإدارة والصلاحيات
+            </a>
+            <ul class="children-list list-unstyled">
+              <li>
+                <a href="permissions-list.html" class="children-link">
+                  الصلاحيات
+                </a>
+              </li>
+              <li>
+                <a href="categories-list.html" class="children-link">
+                  الأقسام
+                </a>
+              </li>
+              <li>
+                <a href="employees-list.html" class="children-link">
+                  الموظفين
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a type="button" class="navigation-link">
+              <i class="fa-solid fa-users"></i>
+              الأعضاء
+            </a>
+            <ul class="children-list list-unstyled">
+              <li>
+                <a href="individuals-list.html" class="children-link">
+                  الأفراد
+                </a>
+              </li>
+              <li>
+                <a href="facilities-list.html" class="children-link">
+                  المنشأت
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a type="button" class="navigation-link">
+              <i class="fa-solid fa-scale-balanced"></i>
+              القضايا
+            </a>
+            <ul class="children-list list-unstyled">
+              <li>
+                <a href="cases-list.html" class="children-link">
+                  سجل القضايا
+                </a>
+              </li>
+              <li>
+                <a href="cases-newReq.html" class="children-link">
+                  طلبات القضايا الجديده
+                </a>
+              </li>
+              <li>
+                <a href="cases-types.html" class="children-link">
+                  أنواع الطلبات
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a type="button" class="navigation-link">
+              <i class="fa-solid fa-suitcase"></i>
+              إعدادات القضايا
+            </a>
+            <ul class="children-list list-unstyled">
+              <li>
+                <a href="cases-setting1.html" class="children-link">
+                  بنود القرارات
+                </a>
+              </li>
+              <li>
+                <a href="cases-setting2.html" class="children-link">
+                  تصنيفات القضايا
+                </a>
+              </li>
+              <li>
+                <a href="cases-setting3.html" class="children-link">
+                  النماذج
+                </a>
+              </li>
+              <li>
+                <a href="cases-setting4.html" class="children-link">
+                  الخطابات
+                </a>
+              </li>
+              <li>
+                <a href="cases-setting5.html" class="children-link">
+                  القانون الموضوعي
+                </a>
+              </li>
+              <li>
+                <a href="cases-setting6.html" class="children-link">
+                  مقرات الجلسات
+                </a>
+              </li>
+              <li>
+                <a href="cases-setting7.html" class="children-link">
+                  إعدادات الجلسات
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="logout-btn">
+          <a href="Auth/login.html" class="navigation-link">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            تسجيل الخروج
+          </a>
+        </div>
+      </div>
+    </aside>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+  </body>
+</html>
